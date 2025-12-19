@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+h1, p {
+    color: #E5E7EB;
+}
+
+address {
+    font-style: normal;
+    color: greenyellow;
+}
+
+p {
+    font-size: 25mpx;
+}
+
+img {
+    width: 300px;
+    border-radius: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf) format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(assets/fonts/static/Inter-Bold.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(assets/fonts/static/Inter-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url(assets/fonts/static/Inter-SemiBold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-image: url(assets/images/bg.jpg);
+    color: #E5E7EB;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+.container {
+    background-color: #0d0d0d;
+    width: 70vw;
+    min-height: 90vh;
+    margin: 40px auto;
+    border-radius: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.subcontainer {
+    min-height: 70vh;
+    min-width: 30vw;
+    background-color: #1d1b1b;
+    border-radius: 24px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.my-img, .my-name, .my-desc, .my-adress, .my-github, .my-linkdin, .my-instagram {
+    align-self: center;
+    font-size: 27px;
+}
+
+.my-name {
+    margin:12px 0px
+}
+
+.my-adress {
+    margin-bottom: 56px; 
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 40px 0px 80px;
+}
+
+.my-github {
+    border: solid grey 4px;
+    border-radius: 16px;
+    padding: 30px 270px;
+    background-color: grey;
+}
+.my-linkdin {
+    border: solid grey 4px;
+    border-radius: 16px;
+    padding: 30px 270px;
+    background-color: grey;
+}
+
+.my-instagram {
+    border: solid grey 4px;
+    border-radius: 16px;
+    padding: 30px 250px;
+    background-color: grey;
+}
+
+.my-instagram:hover, .my-github:hover, .my-linkdin:hover {
+    background-color: greenyellow;
+    color: black;
+    box-shadow: 5px 5px #E5E7EB;
+}
+
